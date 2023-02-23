@@ -5,5 +5,4 @@ for i in word:
         newWord += i.lower()
     else:
         newWord += i.upper()
-
 print(newWord)
