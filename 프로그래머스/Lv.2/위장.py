@@ -2,7 +2,6 @@ def solution(clothes):
     answer = 1
     cloth = {}
     for i in clothes:
-        key, value = i[1], i[0]
         if i[1] not in cloth:
             cloth[i[1]] = 1
         else:
