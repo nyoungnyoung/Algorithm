@@ -8,7 +8,7 @@ def dfs(s):
         return
     visited[s] = True           # 시작지점 방문처리
     for node in graph[s]:       # 시작지점과 연결된 노드 중
-        if not visited[node]:   # 방문하지 않은 노드에서
+        if not visited[node]:   # 방문하지 않은 노드에서 dfs 수행
             dfs(node)
 
 
